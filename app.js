@@ -9,7 +9,7 @@ const inscripcionesRoutes = require('./routes/inscripcion.routes');
 
 const app = express();
 app.use(cors({
-  origin: 'https://web-parapente.netlify.app/'
+  origin: 'https://web-parapente.netlify.app'
 }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
